@@ -6,11 +6,13 @@ import { FaShareAlt } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaTelegramPlane } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 function Contacts() {
+    const { t } = useTranslation();
     return (
         <div className='max-w-[1500px] mx-auto bg-[#161616]'>
-            <h1 className='pl-10 pt-20 text-white text-[40px] font-bold'>Контактлар</h1>
+            <h1 className='pl-10 pt-20 text-white text-[40px] font-bold'>{t("contacts.title")}</h1>
             <div className='grid grid-cols-1 px-2 lg:px-10 py-15 gap-10 sm:px-5 md:px-7 lg:grid-cols-2 items-center'>
                 <div className='grid grid-cols-1 gap-x-5 gap-y-15 sm:grid-cols-2'>
                     <div className='grid grid-cols-1 sm:grid-cols-[1fr_5fr] items-center'>
@@ -18,8 +20,8 @@ function Contacts() {
                             <FaLocationDot />
                         </div>
                         <div className='grid grid-cols-1 gap-y-1.5'>
-                            <h1 className='text-[18px] text-white font-bold'>Манзил</h1>
-                            <p className='text-[14px] text-[#a1a1a1]'>Тошкент шаҳар Юнусобод тумани</p>
+                            <h1 className='text-[18px] text-white font-bold'>{t("contacts.form1.title")}</h1>
+                            <p className='text-[14px] text-[#a1a1a1]'>{t("contacts.form1.text")}</p>
                         </div>
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-[1fr_5fr] items-center'>
@@ -27,7 +29,7 @@ function Contacts() {
                             <FaPhoneVolume />
                         </div>
                         <div className='grid grid-cols-1 gap-y-1.5'>
-                            <h1 className='text-[18px] text-white font-bold'>Телефон рақами</h1>
+                            <h1 className='text-[18px] text-white font-bold'>{t("contacts.form2.title")}</h1>
                             <p className='text-[14px] text-[#a1a1a1]'>+998 (95) 770 08 20</p>
                         </div>
                     </div>
@@ -36,8 +38,8 @@ function Contacts() {
                             <MdOutlineAccessTimeFilled />
                         </div>
                         <div className='grid grid-cols-1 gap-y-1.5'>
-                            <h1 className='text-[18px] text-white font-bold'>Иш вақти</h1>
-                            <p className='text-[14px] text-[#a1a1a1]'>9:00 18:00 Душанба-Шанба</p>
+                            <h1 className='text-[18px] text-white font-bold'>{t("contacts.form3.title")}</h1>
+                            <p className='text-[14px] text-[#a1a1a1]'>{t("contacts.form3.text")}</p>
                         </div>
                     </div>
                     <div className='grid grid-cols-1 sm:grid-cols-[1fr_5fr] items-center'>
@@ -45,7 +47,7 @@ function Contacts() {
                             <FaShareAlt />
                         </div>
                         <div className='grid grid-cols-1'>
-                            <h1 className='text-[18px] text-white font-bold'>Ижтимоий тармоқлар</h1>
+                            <h1 className='text-[18px] text-white font-bold'>{t("contacts.form4.title")}</h1>
                             <div className='flex text-center mt-1.5'>
                                 <FaLinkedinIn className='text-[27px] text-white' />
                                 <RiInstagramFill className='text-[27px] text-white ml-4' />

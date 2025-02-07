@@ -1,0 +1,132 @@
+{
+    "header": {
+        "bosh_saxifa": "Home Page",
+        "xizmatlarimiz": "Our Services",
+        "bizning_ishlar": "Our Projects",
+        "narxlar": "Prices"
+    },
+    "lang_drop": {
+        "uz": "Uz",
+        "ru": "Ru",
+        "en": "Eng"
+    },
+    "hero": {
+        "title": "Perfect IT solutions for growing your business!",
+        "text": "Entrust your project to professionals with over 10 years of experience and achieve outstanding success in no time.",
+        "button": "Contact"
+    },
+    "question": {
+        "title": "Frequently Asked Questions",
+        "question1": "Why are the prices so low?",
+        "question2": "Can I edit the website myself in the future?",
+        "question3": "Do you provide support after the website is finished?",
+        "answer1": "Our prices are based on optimal solutions without compromising quality.",
+        "answer2": "Yes, we will provide you with easy editing options.",
+        "answer3": "Of course, we offer support services even after the website is launched."
+    },
+    "marquee": {
+        "h1": "WEBSITE CREATION SERVICES",
+        "h2": "MOBILE APPLICATIONS",
+        "h3": "AUTOMATION SYSTEMS",
+        "h4": "DIGITAL SOLUTIONS"
+    },
+    "projects": {
+        "title": "Our Latest Projects",
+        "p1": "Ataev Bahodir Build – high-quality construction and renovation services! Choose us to build the home of your dreams.",
+        "p2": "AutoZoomRental – convenient and reliable car rental! Make your travels enjoyable with our cars.",
+        "p3": "IT Time Academy – a hub for modern IT knowledge! Master future professions with us.",
+        "p4": "HomeKit – modern and convenient smart home solutions! Ensure the safety and comfort of your home with us.",
+        "p5": "UzLoyal – a reliable and convenient loyalty system! The most effective way to reward your customers.",
+        "p6": "Namangan ITS – a center for modern IT knowledge and skills! Each step brings new opportunities.",
+        "p7": "ProPartnyor – a place for reliable and effective partnerships! Work with us for your business success.",
+        "p8": "ZamonTour – enjoy unforgettable travel experiences with us! We guarantee a pleasant journey."
+    },
+    "advantages": {
+        "title": "Why choose us? Why do most people prefer us?",
+        "title_text": "Our Advantages",
+        "fact1": {
+            "title": "Responsive Design",
+            "text": "Our websites are fully responsive, supporting tablet and mobile versions at no extra cost."
+        },
+        "fact2": {
+            "title": "Admin Panel",
+            "text": "Your website will have a user-friendly admin panel, allowing you to manage the site independently."
+        },
+        "fact3": {
+            "title": "Security",
+            "text": "Our websites are protected with modern antivirus and firewalls, ensuring resistance to spam bots and attacks."
+        },
+        "fact4": {
+            "title": "24/7 Monitoring",
+            "text": "We provide round-the-clock online monitoring to ensure uninterrupted website operation."
+        },
+        "fact5": {
+            "title": "Domain and Hosting",
+            "text": "Forget the hassle of domain and hosting. We offer a free UZ domain and hosting for 6 months (then $10/month)."
+        },
+        "fact6": {
+            "title": "Uniqueness",
+            "text": "Each website we create has a unique design that stands out. One design – one site!"
+        }
+    },
+    "form": {
+        "big_title": "Order a website for your business now and get a special gift – 10% discount!",
+        "title": "Satisfying every client is our ultimate goal – LIMSA",
+        "second_title": "Pages",
+        "text": "Home Page",
+        "second_text": "Our Services",
+        "form_title": "Leave your details",
+        "button": "Submit",
+        "placeholder": "Your message",
+        "ism": "Your Name"
+    },
+    "contacts": {
+        "title": "Contacts",
+        "form1": {
+            "title": "Address",
+            "text": "Tashkent, Yunusabad District"
+        },
+        "form2": {
+            "title": "Phone Number"
+        },
+        "form3": {
+            "title": "Working Hours",
+            "text": "9:00–18:00, Monday–Saturday"
+        },
+        "form4": {
+            "title": "Social Media"
+        }
+    },
+    "cost": {
+        "title": "Our affordable websites at competitive prices",
+        "card1": {
+            "h2": "Basic Page",
+            "p": "A single-page website, also known as a landing page. Convenient for users and provides the necessary information.",
+            "li1": "✔ UZ Domain",
+            "li2": "✔ Support 24/7",
+            "li3": "✔ Duration: 3 days",
+            "li4": "✔ Number of Pages: 1"
+        },
+        "card2": {
+            "h2": "Business Card Website",
+            "p": "Your company's online business card. It introduces visitors to your company's services or products.",
+            "li1": "✔ UZ Domain",
+            "li2": "✔ Support 24/7",
+            "li3": "✔ Duration: 3–7 days",
+            "li4": "✔ Number of Pages: 2–4"
+        },
+        "card3": {
+            "h2": "Exclusive",
+            "p": "This website is created based on your requirements. We can develop any website you want.",
+            "li1": "✔ UZ Domain",
+            "li2": "✔ Support 24/7",
+            "li3": "✔ Number of systems: any",
+            "li4": "✔ High-level Design"
+        },
+        "button": "Order Now",
+        "text": "Negotiable"
+    },
+    "footer": {
+        "text": "© 2024 Limsa. All rights reserved."
+    }
+}

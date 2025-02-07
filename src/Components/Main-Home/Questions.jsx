@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import QBoy from '../../assets/questions_boy.png';
 import QGirl from '../../assets/questions_girl.png';
-import Marquee from 'react-fast-marquee'
+import Marquee from 'react-fast-marquee';
+import { useTranslation } from 'react-i18next';
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 function Questions() {
+    const { t } = useTranslation();
+
     const [openIndex, setOpenIndex] = useState(null);
 
     const toggleDropdown = (index) => {
@@ -12,32 +16,34 @@ function Questions() {
 
     const faqs = [
         {
-            question: "Нега нархлар арзон?",
-            answer: "Бизда нархлар сифатдан ташқари оптимал ечимлар асосида ишлаб чиқилган.",
+            question: t("question.question1"),
+            answer: t("question.answer1"),
         },
         {
-            question: "Келажакда сайтни ўзим таҳрир қила оламанми?",
-            answer: "Ҳа, сиз учун қулай таҳрир қилиш имкониятларини яратиб берамиз.",
+            question: t("question.question2"),
+            answer: t("question.answer2"),
         },
         {
-            question: "Сайт битганидан кейин қўллаб-қувватлаб турасизларми?",
-            answer: "Албатта, биз сайтни ишга туширгандан кейин ҳам хизматлар кўрсатамиз.",
+            question: t("question.question3"),
+            answer: t("question.answer3"),
         },
     ];
 
     return (
         <div className="max-w-[1500px] mx-auto bg-[#161616]">
-            <div className="grid grid-cols-1 gap-x-2 text-center items-center md:grid-cols-2 py-20 px-10">
+            <div className="grid grid-cols-1 gap-x-2 text-center items-center md:grid-cols-2 py-20 px-5 sm:px-8 md:px-10">
                 <div className="grid grid-cols-2 gap-x-2">
                     <div>
-                        <img src={QBoy} alt="" />
+                        <img src={QBoy} alt="Savollar berayotgan bola rasmi" />
                     </div>
-                    <div className="pt-15">
-                        <img src={QGirl} alt="" />
+                    <div className="pt-[60px]">
+                        <img src={QGirl} alt="Savollar berayotgan qiz rasmi" />
                     </div>
                 </div>
-                <div className="px-0 mb-25 sm:px-10 lg:px-25 ">
-                    <h1 className="font-bold text-white text-[40px] text-start">Энг кўп бериладиган <br />саволлар</h1>
+                <div className="px-0 mb-[25px] sm:px-10 lg:px-25">
+                    <h1 className="font-bold text-white text-[40px] text-start">
+                        {t("question.title")}
+                    </h1>
                     {faqs.map((faq, index) => (
                         <div key={index} className="border rounded-[15px] border-gray-600 my-3">
                             <button
@@ -47,7 +53,7 @@ function Questions() {
                             >
                                 <span>{faq.question}</span>
                                 <span>
-                                    {openIndex === index ? "▲" : "▼"}
+                                    {openIndex === index ? <FaChevronUp /> : <FaChevronDown />}
                                 </span>
                             </button>
                             {openIndex === index && (
@@ -61,21 +67,13 @@ function Questions() {
             </div>
             <Marquee direction='right' speed={250}>
                 <div className='flex ml-20 gap-20 mb-10 font-bold text-[30px] text-white'>
-                    <div>
-                        <h1>ВЕБ САЙТ ЯРАТИШ ХИЗМАТИ</h1>
-                    </div>
+                    <h1>{t("marquee.h1")}</h1>
                     <div>/</div>
-                    <div>
-                        <h1>МОБИЛ ИЛОВАЛАР</h1>
-                    </div>
+                    <h1>{t("marquee.h2")}</h1>
                     <div>/</div>
-                    <div>
-                        <h1>АВТОМАТЛАШТИРИШ ТИЗИМЛАРИ</h1>
-                    </div>
+                    <h1>{t("marquee.h3")}</h1>
                     <div>/</div>
-                    <div>
-                        <h1>РАКАМЛИ ЕЧИМЛАР</h1>
-                    </div>
+                    <h1>{t("marquee.h4")}</h1>
                     <div>/</div>
                 </div>
             </Marquee>
